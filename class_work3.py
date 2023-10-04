@@ -33,4 +33,26 @@ print (party)
 del party [-1]
 print(party)
 
+#Still working with List
+
+locations =["dubai", "california", "shockholm", "maldives"]
+print(locations)
+
+sorted_locations = sorted(locations)
+print(sorted_locations)
+
+print(locations)
+
+print(sorted(locations, reverse=True))
+
+print(locations)
+
+locations.reverse
+print(locations)
+
+locations.sort()
+print(locations)
+
+locations_len = len(locations)
+print(locations_len)
 
