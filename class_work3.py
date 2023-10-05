@@ -56,3 +56,16 @@ print(locations)
 locations_len = len(locations)
 print(locations_len)
 
+#More on List
+
+pizzas = ["dominos", "ola's", "lade","toun"]
+for pizza in pizzas:
+    print(f"I like {pizza.title()} pizza\n")
+print("I really love eating Pizza")    
+
+animals = ["goat","cock", "cat","dolphin"]
+for animal in animals :
+    print(f"\nA {animal.title()} would make a great pet")
+    print(f"All {animal.title()} are pets\n")
+print("Any of this animal will make a great pet")    
+
