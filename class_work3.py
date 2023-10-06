@@ -69,3 +69,10 @@ for animal in animals :
     print(f"All {animal.title()} are pets\n")
 print("Any of this animal will make a great pet")    
 
+# how you might make a list of the first 10 number
+squares = []
+for value in range(1,11):
+   squares.append (value**2)
+print(squares) 
+#There is also another method in solving this quetion
+
