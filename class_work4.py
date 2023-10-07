@@ -31,4 +31,6 @@ print(cubes)
 
 first_10 = list(range(1,10,3))
 print(first_10)
+#Comment is a great part of coding
+
     
