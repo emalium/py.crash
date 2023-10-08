@@ -1,4 +1,4 @@
-#More on List
+#Working with List
 for value in range(1,21):
     print(value)
 
@@ -31,4 +31,7 @@ print(cubes)
 
 first_10 = list(range(1,10,3))
 print(first_10)
-    
+    #Slicing
+r = [20,40,60,80]
+r[1:4] = []
+print(r)
