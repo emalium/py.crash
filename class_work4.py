@@ -31,7 +31,11 @@ print(cubes)
 
 first_10 = list(range(1,10,3))
 print(first_10)
+
 #Slicing
 r = [20,40,60,80]
 r[1:4] = []
 print(r)
+
+#Comment is a great part of coding
+
