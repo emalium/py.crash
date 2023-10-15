@@ -40,11 +40,35 @@ print(r)
 #Comment is a great part of coding
 
 #Slicing through List
-players = ["mike", "khalid", "tope"]
-print(players[1:4])
-print(players[:2])
-print(players[1:])
+players = ["mike", "khalid", "tope", "olamide", "tayo","timo","marve","yinka","fola"]
+
+print("The first three players are:")
+print(players[:3])
+
+print("\nThe second three players are:")
+print(players[3:6])
+
+print("\nThe third three players are:")
+print(players[6:])
+
+#Copying a list
+pizzas = ["dominos", "ola", "lade","toun"]
+friend_pizzas = pizzas[:]
+
+pizzas.append("novar")
+friend_pizzas.append("zealot")
+
+print("My fav pizza are :")
+for pizza in pizzas[0:]:
+  print(pizza.title())
+
+print("\nMy friend's fav pizza are :")
+for friend in friend_pizzas[0:]:
+ print(friend.title())
+
+
 
 #Looping through a slice
 for player in players[:2]: 
    print(player.title())
+
