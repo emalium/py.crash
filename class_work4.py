@@ -68,7 +68,20 @@ for friend in friend_pizzas[0:]:
 
 
 
-#Looping through a slice
+"""#Looping through a slice
 for player in players[:2]: 
-   print(player.title())
+   print(player.title())"""
+
+#Tuples
+
+foods = ("iyan", "amala", "semo", "eba", "fufu")
+for food in foods:
+  print(food)
+
+foods = ("iyan","amala", "semo","tufu","ogi")
+for food in foods:
+  print("\nRevised menu :")
+  print(food)
+
+
 
